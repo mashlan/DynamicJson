@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Mashlan.DynamicJson.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [ApiVersion("1")]
+    [Produces("application/json")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public class ValuesController : Controller
     {
         // GET api/values

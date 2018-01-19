@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mashlan.DynamicJson.Api", "Mashlan.DynamicJson.Api\Mashlan.DynamicJson.Api.csproj", "{53DB05A9-2E54-42BF-A4FF-0504D8AD49F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mashlan.DynamicJson.Api", "Mashlan.DynamicJson.Api\Mashlan.DynamicJson.Api.csproj", "{53DB05A9-2E54-42BF-A4FF-0504D8AD49F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{E8C26FBC-84AA-4C4E-BE14-B08662E837B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{F61780A3-BEBD-41F4-8C56-A1EA99AD0087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mashlan.DynamicJson.Api.Tests", "Mashlan.DynamicJson.Api.Tests\Mashlan.DynamicJson.Api.Tests.csproj", "{7E65821C-8ADE-4B25-BDA4-4CFA7EA86A05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mashlan.DynamicJson.Api.Tests", "Mashlan.DynamicJson.Api.Tests\Mashlan.DynamicJson.Api.Tests.csproj", "{7E65821C-8ADE-4B25-BDA4-4CFA7EA86A05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mashlan.DynamicJson.Domain", "Mashlan.DynamicJson.Domain\Mashlan.DynamicJson.Domain.csproj", "{5B8FF37B-A21D-4808-BF59-9F8768C693AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mashlan.DynamicJson.Domain", "Mashlan.DynamicJson.Domain\Mashlan.DynamicJson.Domain.csproj", "{5B8FF37B-A21D-4808-BF59-9F8768C693AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mashlan.DynamicJson.Domain.Tests", "Mashlan.DynamicJson.Domain.Tests\Mashlan.DynamicJson.Domain.Tests.csproj", "{1EA306DB-8851-4BB5-A0A8-14624912C282}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mashlan.DynamicJson.Domain.Tests", "Mashlan.DynamicJson.Domain.Tests\Mashlan.DynamicJson.Domain.Tests.csproj", "{1EA306DB-8851-4BB5-A0A8-14624912C282}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3F06673-85E8-4FA3-8FA4-77A28C5D5174}"
 	ProjectSection(SolutionItems) = preProject

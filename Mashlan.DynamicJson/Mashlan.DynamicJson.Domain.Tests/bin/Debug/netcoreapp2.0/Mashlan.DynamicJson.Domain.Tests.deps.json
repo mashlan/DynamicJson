@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "ee8db1b77879e8b52ac8d9bd9fd554aa80d86639"
+    "signature": "7228b7f3b6f2ad93f0835069526131b873a50906"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,7 @@
       "Mashlan.DynamicJson.Domain.Tests/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "15.5.0",
+          "TeamCity.VSTest.TestAdapter": "1.0.7",
           "xunit": "2.3.1",
           "xunit.runner.visualstudio": "2.3.1"
         },
@@ -987,6 +988,17 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "TeamCity.ServiceMessages/3.0.10": {
+        "runtime": {
+          "lib/netcoreapp2.0/TeamCity.ServiceMessages.dll": {}
+        }
+      },
+      "TeamCity.VSTest.TestAdapter/1.0.7": {
+        "dependencies": {
+          "Microsoft.TestPlatform.ObjectModel": "15.5.0",
+          "TeamCity.ServiceMessages": "3.0.10"
+        }
+      },
       "xunit/2.3.1": {
         "dependencies": {
           "xunit.analyzers": "0.7.0",
@@ -1522,6 +1534,20 @@
       "sha512": "sha512-Zm2BdeanuncYs3NhCj4c9e1x3EXFzFBVv2wPEc/Dj4ZbI9R8ecLSR5frAsx4zJCPBtKQreQ7Q/KxJEohJZbfzA==",
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
+    },
+    "TeamCity.ServiceMessages/3.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JBVzDdBCefb2gPDwE/b/wQODVlTeEkT0kusq0RHhTvgkoA2uk1wougYnm1SElLstjOFCXvFHvCYIw18rqSu09A==",
+      "path": "teamcity.servicemessages/3.0.10",
+      "hashPath": "teamcity.servicemessages.3.0.10.nupkg.sha512"
+    },
+    "TeamCity.VSTest.TestAdapter/1.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/PXbNK20pGyZqcqT2IpMSTXjSk+MIT2kiKB+h/kDt2mFeAaw0YQ7Zn4yd8KyMZMlnpXFQXU6tb7SGW/rgZ+9YQ==",
+      "path": "teamcity.vstest.testadapter/1.0.7",
+      "hashPath": "teamcity.vstest.testadapter.1.0.7.nupkg.sha512"
     },
     "xunit/2.3.1": {
       "type": "package",

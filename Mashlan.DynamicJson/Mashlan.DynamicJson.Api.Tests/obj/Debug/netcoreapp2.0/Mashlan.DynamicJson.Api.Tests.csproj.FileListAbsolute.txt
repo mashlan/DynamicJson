@@ -9,3 +9,8 @@ C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJ
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.Tests.csproj.CoreCompileInputs.cache
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.Tests.AssemblyInfoInputs.cache
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.Tests.AssemblyInfo.cs
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.Tests.pdb
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.dll
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.pdb
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.Tests.dll
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.Tests.pdb
