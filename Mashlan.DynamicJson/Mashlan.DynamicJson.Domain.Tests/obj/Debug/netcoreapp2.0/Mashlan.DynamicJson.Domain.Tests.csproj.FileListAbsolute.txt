@@ -1,0 +1,11 @@
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Domain.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Domain.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Domain.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Domain.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Domain.Tests.deps.json
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Domain.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Domain.Tests.runtimeconfig.json
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Domain.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Domain.Tests.runtimeconfig.dev.json
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Domain.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Domain.Tests.dll
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Domain.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.Domain.Tests.csprojResolveAssemblyReference.cache
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Domain.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.Domain.Tests.csproj.CoreCompileInputs.cache
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Domain.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.Domain.Tests.AssemblyInfoInputs.cache
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Domain.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.Domain.Tests.AssemblyInfo.cs
