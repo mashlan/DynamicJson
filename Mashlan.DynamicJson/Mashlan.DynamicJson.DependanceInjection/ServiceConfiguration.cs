@@ -9,6 +9,7 @@ namespace Mashlan.DynamicJson.DependanceInjection
         public static void Configure(IServiceCollection service)
         {
             service.AddTransient<IQueueService, QueueService>();
+            service.AddTransient<IContextService, ContextService>();
         }
     }
 }
