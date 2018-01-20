@@ -5547,8 +5547,9 @@
           "Mashlan.DynamicJson.DataAccess": "1.0.0",
           "Mashlan.DynamicJson.Domain": "1.0.0",
           "Mashlan.DynamicJson.MockData": "1.0.0",
+          "Mashlan.DynamicJson.Service": "1.0.0",
           "Microsoft.AspNetCore": "2.0.1",
-          "Microsoft.Extensions.DependencyInjection": "2.0.0",
+          "Microsoft.AspNetCore.Http": "2.0.1",
           "TeamCity.Dotnet.Integration": "1.0.0"
         },
         "compile": {
@@ -5578,6 +5579,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Bogus": "22.0.2",
+          "Mashlan.DynamicJson.DataAccess": "1.0.0",
           "Mashlan.DynamicJson.Domain": "1.0.0",
           "TeamCity.Dotnet.Integration": "1.0.0"
         },
@@ -5586,6 +5588,20 @@
         },
         "runtime": {
           "bin/placeholder/Mashlan.DynamicJson.MockData.dll": {}
+        }
+      },
+      "Mashlan.DynamicJson.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Mashlan.DynamicJson.Domain": "1.0.0",
+          "TeamCity.Dotnet.Integration": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mashlan.DynamicJson.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mashlan.DynamicJson.Service.dll": {}
         }
       }
     }
@@ -14330,12 +14346,18 @@
       "type": "project",
       "path": "../Mashlan.DynamicJson.MockData/Mashlan.DynamicJson.MockData.csproj",
       "msbuildProject": "../Mashlan.DynamicJson.MockData/Mashlan.DynamicJson.MockData.csproj"
+    },
+    "Mashlan.DynamicJson.Service/1.0.0": {
+      "type": "project",
+      "path": "../Mashlan.DynamicJson.Service/Mashlan.DynamicJson.Service.csproj",
+      "msbuildProject": "../Mashlan.DynamicJson.Service/Mashlan.DynamicJson.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "FluentAssertions >= 4.19.4",
       "Mashlan.DynamicJson.Api >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.InMemory >= 2.0.1",
       "Microsoft.NET.Test.Sdk >= 15.5.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "TeamCity.Dotnet.Integration >= 1.0.0",
@@ -14398,6 +14420,10 @@
           "FluentAssertions": {
             "target": "Package",
             "version": "[4.19.4, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
+            "target": "Package",
+            "version": "[2.0.1, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

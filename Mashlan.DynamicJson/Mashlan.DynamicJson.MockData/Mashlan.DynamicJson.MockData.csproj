@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Mashlan.DynamicJson.DataAccess\Mashlan.DynamicJson.DataAccess.csproj" />
     <ProjectReference Include="..\Mashlan.DynamicJson.Domain\Mashlan.DynamicJson.Domain.csproj" />
   </ItemGroup>
 

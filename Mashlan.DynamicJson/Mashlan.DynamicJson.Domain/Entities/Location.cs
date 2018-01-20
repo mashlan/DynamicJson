@@ -15,11 +15,11 @@ namespace Mashlan.DynamicJson.Domain.Entities
 
         [JsonProperty("ParentLocationID")]
         [NotMapped]
-        public ICollection<Guid> ParentLocationGuids { get; set; }
+        public Array ParentLocationGuids { get; set; }
 
         [JsonProperty("Name")]
         [NotMapped]
-        public ICollection<string> Names { get; set; }
+        public Array Names { get; set; }
 
         [JsonProperty("Code")]
         [NotMapped]

@@ -205,6 +205,19 @@
             <param name="apiVersionDescriptionProvider"></param>
             <exception cref="T:System.ArgumentNullException"><paramref name="application"/> is <see langword="null"/></exception>
         </member>
+        <member name="M:Mashlan.DynamicJson.Api.Controllers.QueueController.Get">
+            <summary>
+            Returns all Queue records
+            </summary>
+            <returns><see cref="T:System.Collections.Generic.List`1"/></returns>
+        </member>
+        <member name="M:Mashlan.DynamicJson.Api.Controllers.QueueController.Get(System.Guid)">
+            <summary>
+            Returns a Queue record for the supplied Id
+            </summary>
+            <param name="id">Queue Id <see cref="T:System.Guid"/></param>
+            <returns><see cref="T:Mashlan.DynamicJson.Domain.Entities.Queue"/></returns>
+        </member>
         <member name="T:Mashlan.DynamicJson.Api.Startup">
             <summary>
              Application Startup Configuration

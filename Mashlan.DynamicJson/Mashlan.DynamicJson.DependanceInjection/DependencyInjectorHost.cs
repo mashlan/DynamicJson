@@ -10,6 +10,7 @@ namespace Mashlan.DynamicJson.DependanceInjection
         public static void Configure(IServiceCollection services)
         {
             RepositoriesConfiguration.Configure(services);
+            ServiceConfiguration.Configure(services);
         }
 
         public static void ConfigureMock(IServiceProvider serviceProvider)

@@ -32,6 +32,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mashlan.DynamicJson.Dependa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mashlan.DynamicJson.MockData.Tests", "Mashlan.DynamicJson.MockData.Tests\Mashlan.DynamicJson.MockData.Tests.csproj", "{BF6F08EF-D033-47F3-BD1D-CE04A3F21B55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mashlan.DynamicJson.Service", "Mashlan.DynamicJson.Service\Mashlan.DynamicJson.Service.csproj", "{79684825-2B1E-4F35-BDCB-4422567387E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +72,10 @@ Global
 		{BF6F08EF-D033-47F3-BD1D-CE04A3F21B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF6F08EF-D033-47F3-BD1D-CE04A3F21B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF6F08EF-D033-47F3-BD1D-CE04A3F21B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79684825-2B1E-4F35-BDCB-4422567387E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79684825-2B1E-4F35-BDCB-4422567387E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79684825-2B1E-4F35-BDCB-4422567387E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79684825-2B1E-4F35-BDCB-4422567387E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{232AA8A8-5E54-433B-93A3-0772FA705828} = {73A872E9-0113-41A1-97DD-2573AB6E9194}
 		{2F6A41EB-E6C0-4BB6-8A08-FD25EE1FBF23} = {E8C26FBC-84AA-4C4E-BE14-B08662E837B2}
 		{BF6F08EF-D033-47F3-BD1D-CE04A3F21B55} = {F61780A3-BEBD-41F4-8C56-A1EA99AD0087}
+		{79684825-2B1E-4F35-BDCB-4422567387E7} = {E8C26FBC-84AA-4C4E-BE14-B08662E837B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D269BA02-28E4-4E8E-966E-AFC372F58816}

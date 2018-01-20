@@ -11,7 +11,7 @@ namespace Mashlan.DynamicJson.MockData.Tests
 {
     public class MockDataInjectorTests : IDisposable
     {
-        private IAssetTrackContext context;
+        private AssetTrackContext context;
         private MockDataInjector mockDataInjector;
 
         public MockDataInjectorTests()

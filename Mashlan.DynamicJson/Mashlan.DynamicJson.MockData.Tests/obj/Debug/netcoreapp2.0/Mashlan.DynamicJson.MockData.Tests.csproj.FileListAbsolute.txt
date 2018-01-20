@@ -1,6 +1,3 @@
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.Tests.csproj.CoreCompileInputs.cache
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.Tests.AssemblyInfoInputs.cache
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.Tests.AssemblyInfo.cs
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
@@ -8,13 +5,16 @@ C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJ
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.Tests.runtimeconfig.json
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.Tests.runtimeconfig.dev.json
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.Tests.dll
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.Tests.csprojResolveAssemblyReference.cache
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.Tests.pdb
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.DataAccess.dll
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Domain.dll
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.dll
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.DataAccess.pdb
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Domain.pdb
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.pdb
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.Tests.csprojResolveAssemblyReference.cache
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.Tests.csproj.CoreCompileInputs.cache
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.Tests.AssemblyInfoInputs.cache
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.Tests.AssemblyInfo.cs
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.Tests.dll
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.Tests.pdb
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.dll
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.pdb

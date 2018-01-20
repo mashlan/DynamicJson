@@ -4031,8 +4031,9 @@
           "Mashlan.DynamicJson.DataAccess": "1.0.0",
           "Mashlan.DynamicJson.Domain": "1.0.0",
           "Mashlan.DynamicJson.MockData": "1.0.0",
+          "Mashlan.DynamicJson.Service": "1.0.0",
           "Microsoft.AspNetCore": "2.0.1",
-          "Microsoft.Extensions.DependencyInjection": "2.0.0",
+          "Microsoft.AspNetCore.Http": "2.0.1",
           "TeamCity.Dotnet.Integration": "1.0.0"
         },
         "runtime": {
@@ -4058,6 +4059,7 @@
       "Mashlan.DynamicJson.MockData/1.0.0": {
         "dependencies": {
           "Bogus": "22.0.2",
+          "Mashlan.DynamicJson.DataAccess": "1.0.0",
           "Mashlan.DynamicJson.Domain": "1.0.0",
           "TeamCity.Dotnet.Integration": "1.0.0"
         },
@@ -4066,6 +4068,18 @@
         },
         "compile": {
           "Mashlan.DynamicJson.MockData.dll": {}
+        }
+      },
+      "Mashlan.DynamicJson.Service/1.0.0": {
+        "dependencies": {
+          "Mashlan.DynamicJson.Domain": "1.0.0",
+          "TeamCity.Dotnet.Integration": "1.0.0"
+        },
+        "runtime": {
+          "Mashlan.DynamicJson.Service.dll": {}
+        },
+        "compile": {
+          "Mashlan.DynamicJson.Service.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.0.0": {
@@ -6382,6 +6396,11 @@
       "sha512": ""
     },
     "Mashlan.DynamicJson.MockData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mashlan.DynamicJson.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
