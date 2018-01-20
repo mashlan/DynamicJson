@@ -5,9 +5,7 @@ C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJ
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData\bin\Debug\netstandard2.0\Mashlan.DynamicJson.MockData.dll
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData\bin\Debug\netstandard2.0\Mashlan.DynamicJson.MockData.pdb
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData\bin\Debug\netstandard2.0\Mashlan.DynamicJson.Domain.dll
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData\bin\Debug\netstandard2.0\Mashlan.DynamicJson.Domain.pdb
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData\obj\Debug\netstandard2.0\Mashlan.DynamicJson.MockData.csprojResolveAssemblyReference.cache
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData\obj\Debug\netstandard2.0\Mashlan.DynamicJson.MockData.dll
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.MockData\obj\Debug\netstandard2.0\Mashlan.DynamicJson.MockData.pdb

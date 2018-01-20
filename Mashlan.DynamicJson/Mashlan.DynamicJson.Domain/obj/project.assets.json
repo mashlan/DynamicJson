@@ -878,6 +878,9 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "TeamCity.Dotnet.Integration/1.0.0": {
+        "type": "package"
       }
     }
   },
@@ -3729,13 +3732,45 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "TeamCity.Dotnet.Integration/1.0.0": {
+      "sha512": "x/GCys+vUpr4HgINJQp2rvNwQta4vx0CTMQ9H3jnB8M5PlPJgxMaPvy6xDAgIbxgWPY6NSsjEHPEiy0lq1OZ6g==",
+      "type": "package",
+      "path": "teamcity.dotnet.integration/1.0.0",
+      "files": [
+        "LICENSE",
+        "build/_common/msbuild12/DevTeam.IoC.Contracts.dll",
+        "build/_common/msbuild12/DevTeam.IoC.dll",
+        "build/_common/msbuild12/TeamCity.MSBuild.Logger.dll",
+        "build/_common/msbuild12/TeamCity.ServiceMessages.dll",
+        "build/_common/msbuild14/DevTeam.IoC.Contracts.dll",
+        "build/_common/msbuild14/DevTeam.IoC.dll",
+        "build/_common/msbuild14/Microsoft.Build.Framework.dll",
+        "build/_common/msbuild14/TeamCity.MSBuild.Logger.dll",
+        "build/_common/msbuild14/TeamCity.ServiceMessages.dll",
+        "build/_common/msbuild15/DevTeam.IoC.Contracts.dll",
+        "build/_common/msbuild15/DevTeam.IoC.dll",
+        "build/_common/msbuild15/Microsoft.Build.Framework.dll",
+        "build/_common/msbuild15/TeamCity.MSBuild.Logger.dll",
+        "build/_common/msbuild15/TeamCity.ServiceMessages.dll",
+        "build/_common/vstest12/TeamCity.ServiceMessages.dll",
+        "build/_common/vstest12/TeamCity.VSTest.TestAdapter.dll",
+        "build/_common/vstest14/TeamCity.ServiceMessages.dll",
+        "build/_common/vstest14/TeamCity.VSTest.TestAdapter.dll",
+        "build/_common/vstest15/TeamCity.ServiceMessages.dll",
+        "build/_common/vstest15/TeamCity.VSTest.TestAdapter.dll",
+        "build/_common/vstest15/TeamCity.VSTest.TestLogger.dll",
+        "teamcity.dotnet.integration.1.0.0.nupkg.sha512",
+        "teamcity.dotnet.integration.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Microsoft.EntityFrameworkCore >= 2.0.1",
       "NETStandard.Library >= 2.0.1",
-      "Newtonsoft.Json >= 10.0.3"
+      "Newtonsoft.Json >= 10.0.3",
+      "TeamCity.Dotnet.Integration >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3798,6 +3833,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[10.0.3, )"
+          },
+          "TeamCity.Dotnet.Integration": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [

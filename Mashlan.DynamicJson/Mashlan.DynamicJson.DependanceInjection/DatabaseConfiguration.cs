@@ -14,11 +14,7 @@ namespace Mashlan.DynamicJson.DependanceInjection
                 else { options.UseSqlServer(connectionString); }
             });
 
-            service.AddScoped<DbContext>(provider =>
-            {
-                var test = "";
-                return provider.GetService<AssetTrackContext>();
-            });
+            service.AddScoped<DbContext>(provider => provider.GetService<AssetTrackContext>());
         }
     }
 }

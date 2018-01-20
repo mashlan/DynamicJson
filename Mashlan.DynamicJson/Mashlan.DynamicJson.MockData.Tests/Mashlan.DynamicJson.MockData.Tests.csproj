@@ -16,4 +16,10 @@
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Mashlan.DynamicJson.DataAccess\Mashlan.DynamicJson.DataAccess.csproj" />
+    <ProjectReference Include="..\Mashlan.DynamicJson.Domain\Mashlan.DynamicJson.Domain.csproj" />
+    <ProjectReference Include="..\Mashlan.DynamicJson.MockData\Mashlan.DynamicJson.MockData.csproj" />
+  </ItemGroup>
+
 </Project>

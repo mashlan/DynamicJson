@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Bogus" Version="22.0.2" />
+    <PackageReference Include="TeamCity.Dotnet.Integration" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>

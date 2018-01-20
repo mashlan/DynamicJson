@@ -6,6 +6,8 @@ namespace Mashlan.DynamicJson.DataAccess
 {
     public class AssetTrackContext : DbContext, IAssetTrackContext
     {
+        public AssetTrackContext() { }
+        
         public AssetTrackContext(DbContextOptions options) : base(options) { }
 
         public DbSet<Assignee> Assignees { get; set; }
