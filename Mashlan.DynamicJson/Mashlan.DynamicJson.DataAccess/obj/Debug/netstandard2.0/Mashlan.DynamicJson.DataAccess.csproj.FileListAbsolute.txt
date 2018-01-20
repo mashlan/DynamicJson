@@ -1,0 +1,13 @@
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.DataAccess\obj\Debug\netstandard2.0\Mashlan.DynamicJson.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.DataAccess\obj\Debug\netstandard2.0\Mashlan.DynamicJson.DataAccess.AssemblyInfoInputs.cache
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.DataAccess\obj\Debug\netstandard2.0\Mashlan.DynamicJson.DataAccess.AssemblyInfo.cs
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.DataAccess\bin\Debug\netstandard2.0\Mashlan.DynamicJson.DataAccess.deps.json
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.DataAccess\bin\Debug\netstandard2.0\Mashlan.DynamicJson.DataAccess.dll
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.DataAccess\obj\Debug\netstandard2.0\Mashlan.DynamicJson.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.DataAccess\bin\Debug\netstandard2.0\Mashlan.DynamicJson.DataAccess.pdb
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.DataAccess\bin\Debug\netstandard2.0\Mashlan.DynamicJson.Domain.dll
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.DataAccess\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.DataAccess\bin\Debug\netstandard2.0\Mashlan.DynamicJson.Domain.pdb
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.DataAccess\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.DataAccess\obj\Debug\netstandard2.0\Mashlan.DynamicJson.DataAccess.dll
+C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.DataAccess\obj\Debug\netstandard2.0\Mashlan.DynamicJson.DataAccess.pdb

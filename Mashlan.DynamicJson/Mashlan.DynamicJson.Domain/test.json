@@ -1,0 +1,1253 @@
+﻿{
+	"Queue" :
+	{
+		"Entity" : "Asset",
+		"Contexts" :
+		{
+			"e0376598-732b-48d3-b4a3-5059e4a963be" :
+			{
+				"Application" : "SmartClient",
+				"Task" :
+				{
+					"TaskDescriptorId" : "0fdd6622-7841-436e-b092-1ad02b2f1082",
+					"Name" : "Move",
+					"Description" : "Allows end users to create IMAC requests.",
+					"IsBulk" : true
+				},
+				"DateCollected" : "2017-12-10T13:23:50Z",
+				"CollectingUser" :
+				{
+					"UserID" : "a403d230-4e59-11d9-9669-0800200c9a66",
+					"FirstName" : "Janet",
+					"LastName" : "Sprocket",
+					"MiddleInitial" : "None"
+				},
+				"Created" : "2017-12-10T13:23:52Z",
+				"Updated" : "2017-12-10T17:04:03Z"
+			},
+			"acee971f-f3b4-43d1-ba83-871d1fc66b14" :
+			{
+				"Application" : "SmartClient",
+				"Task" :
+				{
+					"TaskDescriptorId" : "8fa487cd-2b14-403a-9ef4-c904a47f7190",
+					"Name" : "Install",
+					"Description" : "Used to install received equipment into production, updating the asset tag, location and contact of existing asset records.",
+					"IsBulk" : true
+				},
+				"DateCollected" : "2017-12-11T12:20:34Z",
+				"CollectingUser" :
+				{
+					"UserID" : "a403d230-4e59-11d9-9669-0800200c9a66",
+					"FirstName" : "Geoffrey",
+					"LastName" : "Montaigu",
+					"MiddleInitial" : "R"
+				},
+				"Created" : "2017-12-11T12:20:35Z",
+				"Updated" : "2017-12-11T13:04:03Z"
+			}
+		},
+		"Entities" : [
+			{
+				"__Q_Id" : "1604be7d-28a0-37e2-90f3-16543a432644",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-12T08:16:54.137Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28a4-373f-912e-7bad44759488",
+				"Active" : true,
+				"AssetTag" : "A0011921",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28a6-31e7-991c-782df9bfd74c",
+					"Active" : true,
+					"FirstName" : "Kristie",
+					"LastName" : "Karle",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Karle.K@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-28a4-3565-bac7-755f80a1eb59", "1604be7d-28a4-328e-a98f-a897935b41e0"],
+						"ParentLocationID" : [null, "1604be7d-28a4-3565-bac7-755f80a1eb59"],
+						"Name" : ["2040 SE Cedar Pl", "Floor 1"],
+						"Code" : ["L0000007", "L0001007"]
+					},
+					"Code" : "EID71974318"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-2890-3f1a-9774-f8e6f4e5b97d",
+					"Active" : true,
+					"Name" : "Viper Hurricane VH774",
+					"Description" : "Viper Hurricane VH774",
+					"PartControlNumber" : "TX0P4009464DPO9",
+					"ManufacturerID" : "1604be7d-289d-3e86-a8c2-bf3f5802a385",
+					"DateModified" : "2016-01-05T01:46:57.895Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-28a4-3565-bac7-755f80a1eb59", "1604be7d-28a3-3095-ac7f-47bd4f78c9f1", "1604be7d-28a3-3e07-89d8-a23d8c729108"],
+					"ParentLocationID" : [null, "1604be7d-28a4-3565-bac7-755f80a1eb59", "1604be7d-28a3-3095-ac7f-47bd4f78c9f1"],
+					"Name" : ["2040 SE Cedar Pl", "Floor 3", "Room 2"],
+					"Code" : ["L0000007", "L0003007", "L0203007"]
+				},
+				"SerialNumber" : "SN000195719304",
+				"Status" : "Installed",
+				"MacAddress" : "4477FDE97367",
+				"PONumber" : "PO00019727"
+			},
+			{
+				"__Q_Id" : "1604be7d-28a8-3838-be6a-b4f73cecb05d",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-12T13:30:48.827Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28a7-31d7-8bd6-9ba358272d37",
+				"Active" : true,
+				"AssetTag" : "A0023935",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28a3-3136-82c4-2761c03de4a1",
+					"Active" : true,
+					"FirstName" : "Kristie",
+					"LastName" : "Kimbler",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Kimbler.K@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-38c9-b0fb-0a2a49719519", "1604be7d-289a-322a-8562-d80e053f3f1b"],
+						"ParentLocationID" : [null, "1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-38c9-b0fb-0a2a49719519"],
+						"Name" : ["5860 SW Maple St", "Floor 3", "Room 3"],
+						"Code" : ["L0000003", "L0003003", "L0303003"]
+					},
+					"Code" : "EID32948049"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-2892-362f-9351-1199216a91a3",
+					"Active" : true,
+					"Name" : "Tsunami T214",
+					"Description" : "Tsunami T214",
+					"PartControlNumber" : "JK33F00T08Q1N61",
+					"ManufacturerID" : "1604be7d-2899-3d3b-bb3f-028cb73f6f58",
+					"DateModified" : "2017-08-16T18:18:03.783Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-289f-378a-a464-09387932eb6e"],
+					"ParentLocationID" : [null],
+					"Name" : ["9006 Plum Ave NE"],
+					"Code" : ["L0000000"]
+				},
+				"SerialNumber" : "SN000813516945",
+				"Status" : "Staged",
+				"MacAddress" : "2661BC2566B6",
+				"PONumber" : "PO00068303"
+			},
+			{
+				"__Q_Id" : "1604be7d-28a8-30a2-baa7-9f2bb5eb317e",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-11T18:35:46.472Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28a9-3300-a34a-3c5ca2a992c7",
+				"Active" : true,
+				"AssetTag" : "A0030004",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28ae-3348-9658-043ddef59f59",
+					"Active" : true,
+					"FirstName" : "Kristie",
+					"LastName" : "Guptill",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Guptill.K@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-2891-324a-9618-e2679063121b", "1604be7d-2892-3365-a70c-d438bbc93549"],
+						"ParentLocationID" : [null, "1604be7d-2891-324a-9618-e2679063121b"],
+						"Name" : ["8905 E Park St", "Floor 1"],
+						"Code" : ["L0000004", "L0001004"]
+					},
+					"Code" : "EID25408608"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-2892-362f-9351-1199216a91a3",
+					"Active" : true,
+					"Name" : "Tsunami T214",
+					"Description" : "Tsunami T214",
+					"PartControlNumber" : "JK33F00T08Q1N61",
+					"ManufacturerID" : "1604be7d-2899-3d3b-bb3f-028cb73f6f58",
+					"DateModified" : "2017-08-16T18:18:03.783Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-2893-3a4c-b889-a0278ddd5c20", "1604be7d-2898-37a7-8319-57267fcd54c4", "1604be7d-2895-3ef3-8a44-1cab01a6c367"],
+					"ParentLocationID" : [null, "1604be7d-2893-3a4c-b889-a0278ddd5c20", "1604be7d-2898-37a7-8319-57267fcd54c4"],
+					"Name" : ["5706 E 2nd Ln", "Floor 3", "Room 2"],
+					"Code" : ["L0000002", "L0003002", "L0203002"]
+				},
+				"SerialNumber" : "SN000246482416",
+				"Status" : "Disposed",
+				"MacAddress" : "80093B1974A3",
+				"PONumber" : "PO00061243"
+			},
+			{
+				"__Q_Id" : "1604be7d-28a2-33e2-be68-c1259d8065a5",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-11T04:17:26.572Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28a6-3e7b-9051-649feffbadf5",
+				"Active" : true,
+				"AssetTag" : "A0054523",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28af-33a5-a8b2-7b918ce1163d",
+					"Active" : true,
+					"FirstName" : "Kary",
+					"LastName" : "Coop",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Coop.K@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-3eb9-9472-ac299bc67e08", "1604be7d-2898-3e87-9345-0ac88dea14e5"],
+						"ParentLocationID" : [null, "1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-3eb9-9472-ac299bc67e08"],
+						"Name" : ["5860 SW Maple St", "Floor 2", "Room 2"],
+						"Code" : ["L0000003", "L0002003", "L0202003"]
+					},
+					"Code" : "EID71201530"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-2892-3f20-be82-b4f347e9521a",
+					"Active" : true,
+					"Name" : "Viking Legionnaire VL344",
+					"Description" : "Viking Legionnaire VL344",
+					"PartControlNumber" : "G233OHXSL228GJ6",
+					"ManufacturerID" : "1604be7d-2896-37d5-b599-d622760d5748",
+					"DateModified" : "2016-12-24T15:21:22.431Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-2891-324a-9618-e2679063121b", "1604be7d-289a-3912-816b-3c3ee3e4bb2f", "1604be7d-2892-3f93-9116-3ca5a62826ad"],
+					"ParentLocationID" : [null, "1604be7d-2891-324a-9618-e2679063121b", "1604be7d-289a-3912-816b-3c3ee3e4bb2f"],
+					"Name" : ["8905 E Park St", "Floor 3", "Room 1"],
+					"Code" : ["L0000004", "L0003004", "L0103004"]
+				},
+				"SerialNumber" : "SN000158671289",
+				"Status" : "Installed",
+				"MacAddress" : "37A908A6A052",
+				"PONumber" : "PO00050007"
+			},
+			{
+				"__Q_Id" : "1604be7d-28a2-3a71-9671-5df38dad767f",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-12T15:11:04.855Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28a6-3245-96b5-828cd230c026",
+				"Active" : true,
+				"AssetTag" : "A0045131",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28aa-38ef-b5d9-030a27176edf",
+					"Active" : true,
+					"FirstName" : "Deane",
+					"LastName" : "Deeds",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Deeds.D@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-28a3-3a4b-a000-b47a94825b91", "1604be7d-28a0-3813-88a2-1227917576ee", "1604be7d-28ac-39ed-86ed-83c34fc816f4"],
+						"ParentLocationID" : [null, "1604be7d-28a3-3a4b-a000-b47a94825b91", "1604be7d-28a0-3813-88a2-1227917576ee"],
+						"Name" : ["8588 Main Way NE", "Floor 3", "Room 3"],
+						"Code" : ["L0000009", "L0003009", "L0303009"]
+					},
+					"Code" : "EID02187094"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-2892-362f-9351-1199216a91a3",
+					"Active" : true,
+					"Name" : "Tsunami T214",
+					"Description" : "Tsunami T214",
+					"PartControlNumber" : "JK33F00T08Q1N61",
+					"ManufacturerID" : "1604be7d-2899-3d3b-bb3f-028cb73f6f58",
+					"DateModified" : "2017-08-16T18:18:03.783Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-289f-378a-a464-09387932eb6e", "1604be7d-289f-3bd2-a289-f6a6a5952aaf"],
+					"ParentLocationID" : [null, "1604be7d-289f-378a-a464-09387932eb6e"],
+					"Name" : ["9006 Plum Ave NE", "Floor 1"],
+					"Code" : ["L0000000", "L0001000"]
+				},
+				"SerialNumber" : "SN000382267523",
+				"Status" : "Staged",
+				"MacAddress" : "C73F3D254D22",
+				"PONumber" : "PO00050859"
+			},
+			{
+				"__Q_Id" : "1604be7d-28a8-336c-b882-c9ffcfbb0033",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-11T23:15:43.335Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28a0-347a-95fe-a163650bb379",
+				"Active" : true,
+				"AssetTag" : "A0038335",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28a3-3136-82c4-2761c03de4a1",
+					"Active" : true,
+					"FirstName" : "Kristie",
+					"LastName" : "Kimbler",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Kimbler.K@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-38c9-b0fb-0a2a49719519", "1604be7d-289a-322a-8562-d80e053f3f1b"],
+						"ParentLocationID" : [null, "1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-38c9-b0fb-0a2a49719519"],
+						"Name" : ["5860 SW Maple St", "Floor 3", "Room 3"],
+						"Code" : ["L0000003", "L0003003", "L0303003"]
+					},
+					"Code" : "EID32948049"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-2893-368a-9ce3-499d0eec7905",
+					"Active" : true,
+					"Name" : "Supreme Hurricane SH112",
+					"Description" : "Supreme Hurricane SH112",
+					"PartControlNumber" : "03FQ1002EXA82B7",
+					"ManufacturerID" : "1604be7d-2897-3da8-98a0-58b70986333d",
+					"DateModified" : "2016-06-24T16:10:29.238Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-289a-3249-8bf3-d46b581b6f0d"],
+					"ParentLocationID" : [null],
+					"Name" : ["5860 SW Maple St"],
+					"Code" : ["L0000003"]
+				},
+				"SerialNumber" : "SN000152562419",
+				"Status" : "Disposed",
+				"MacAddress" : "AE911247305A",
+				"PONumber" : "PO00014663"
+			},
+			{
+				"__Q_Id" : "1604be7d-28ab-37c5-b035-4017cf840543",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-11T23:14:43.718Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28ad-3af6-8676-95e215f5b144",
+				"Active" : true,
+				"AssetTag" : "A0019677",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28a7-3e45-9d1e-b7cb6e997ffc",
+					"Active" : true,
+					"FirstName" : "Nolan",
+					"LastName" : "Cilley",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Cilley.N@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-28ad-3c2b-8d39-56e76ba1bf61"],
+						"ParentLocationID" : [null],
+						"Name" : ["7532 E Maple St"],
+						"Code" : ["L0000008"]
+					},
+					"Code" : "EID91778803"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-289e-315a-b4fc-850fbdd26d54",
+					"Active" : true,
+					"Name" : "Shark Tornado ST072",
+					"Description" : "Shark Tornado ST072",
+					"PartControlNumber" : "23MO1TN9IGT4654",
+					"ManufacturerID" : "1604be7d-2894-310f-aebf-04b0a27b1944",
+					"DateModified" : "2016-11-30T23:20:47.267Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-2893-3a4c-b889-a0278ddd5c20", "1604be7d-2898-37a7-8319-57267fcd54c4", "1604be7d-289b-3a74-9fd5-f70188d03171"],
+					"ParentLocationID" : [null, "1604be7d-2893-3a4c-b889-a0278ddd5c20", "1604be7d-2898-37a7-8319-57267fcd54c4"],
+					"Name" : ["5706 E 2nd Ln", "Floor 3", "Room 1"],
+					"Code" : ["L0000002", "L0003002", "L0103002"]
+				},
+				"SerialNumber" : "SN000369030136",
+				"Status" : "Installed",
+				"MacAddress" : "7E718267810A",
+				"PONumber" : "PO00098061"
+			},
+			{
+				"__Q_Id" : "1604be7d-28a3-3036-96a9-6cb1ea39931c",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-10T16:37:01.600Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28ab-30ca-9557-57ac00b0af1e",
+				"Active" : true,
+				"AssetTag" : "A0031175",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28a2-3859-b750-91cf13902e63",
+					"Active" : true,
+					"FirstName" : "Bill",
+					"LastName" : "Westrich",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Westrich.B@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-2890-3689-98e7-3cb6ab86bcd2"],
+						"ParentLocationID" : [null],
+						"Name" : ["6846 Maple Pkwy S"],
+						"Code" : ["L0000006"]
+					},
+					"Code" : "EID00242092"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-2892-362f-9351-1199216a91a3",
+					"Active" : true,
+					"Name" : "Tsunami T214",
+					"Description" : "Tsunami T214",
+					"PartControlNumber" : "JK33F00T08Q1N61",
+					"ManufacturerID" : "1604be7d-2899-3d3b-bb3f-028cb73f6f58",
+					"DateModified" : "2017-08-16T18:18:03.783Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-2890-3689-98e7-3cb6ab86bcd2", "1604be7d-28a0-3984-9338-90bd0f091cb8", "1604be7d-28a4-3de8-85b3-90c6c3eb3bfe"],
+					"ParentLocationID" : [null, "1604be7d-2890-3689-98e7-3cb6ab86bcd2", "1604be7d-28a0-3984-9338-90bd0f091cb8"],
+					"Name" : ["6846 Maple Pkwy S", "Floor 3", "Room 3"],
+					"Code" : ["L0000006", "L0003006", "L0303006"]
+				},
+				"SerialNumber" : "SN000640674638",
+				"Status" : "Disposed",
+				"MacAddress" : "0673C060CFA1",
+				"PONumber" : "PO00025885"
+			},
+			{
+				"__Q_Id" : "1604be7d-28a6-3ecc-8ba2-92dcf1524881",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-12T09:27:01.308Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28a4-3aba-ad7e-0b53d92e841f",
+				"Active" : true,
+				"AssetTag" : "A0030348",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28aa-38ef-b5d9-030a27176edf",
+					"Active" : true,
+					"FirstName" : "Deane",
+					"LastName" : "Deeds",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Deeds.D@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-28a3-3a4b-a000-b47a94825b91", "1604be7d-28a0-3813-88a2-1227917576ee", "1604be7d-28ac-39ed-86ed-83c34fc816f4"],
+						"ParentLocationID" : [null, "1604be7d-28a3-3a4b-a000-b47a94825b91", "1604be7d-28a0-3813-88a2-1227917576ee"],
+						"Name" : ["8588 Main Way NE", "Floor 3", "Room 3"],
+						"Code" : ["L0000009", "L0003009", "L0303009"]
+					},
+					"Code" : "EID02187094"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-2892-3f20-be82-b4f347e9521a",
+					"Active" : true,
+					"Name" : "Viking Legionnaire VL344",
+					"Description" : "Viking Legionnaire VL344",
+					"PartControlNumber" : "G233OHXSL228GJ6",
+					"ManufacturerID" : "1604be7d-2896-37d5-b599-d622760d5748",
+					"DateModified" : "2016-12-24T15:21:22.431Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-38c9-b0fb-0a2a49719519", "1604be7d-289a-322a-8562-d80e053f3f1b"],
+					"ParentLocationID" : [null, "1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-38c9-b0fb-0a2a49719519"],
+					"Name" : ["5860 SW Maple St", "Floor 3", "Room 3"],
+					"Code" : ["L0000003", "L0003003", "L0303003"]
+				},
+				"SerialNumber" : "SN000229485175",
+				"Status" : "Disposed",
+				"MacAddress" : "7034215E3027",
+				"PONumber" : "PO00097402"
+			},
+			{
+				"__Q_Id" : "1604be7d-28ab-34ac-ac64-77323c8b0d35",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-11T07:18:57.363Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28a0-390f-956b-d1f4a862902e",
+				"Active" : true,
+				"AssetTag" : "A0012863",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28a2-3c3f-bd19-81d737f628a6",
+					"Active" : true,
+					"FirstName" : "Rosario",
+					"LastName" : "Gulledge",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Gulledge.R@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-3eb9-9472-ac299bc67e08", "1604be7d-2890-3558-851f-4dad38eb8d5f"],
+						"ParentLocationID" : [null, "1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-3eb9-9472-ac299bc67e08"],
+						"Name" : ["5860 SW Maple St", "Floor 2", "Room 3"],
+						"Code" : ["L0000003", "L0002003", "L0302003"]
+					},
+					"Code" : "EID82657780"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-2898-36b9-8e0e-dfb7c171939a",
+					"Active" : true,
+					"Name" : "Viper Tornado VT903",
+					"Description" : "Viper Tornado VT903",
+					"PartControlNumber" : "8EB8THH71S803K2",
+					"ManufacturerID" : "1604be7d-2891-30e3-87c7-00ea1ed1ee11",
+					"DateModified" : "2017-05-07T22:00:02.609Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-28a4-3565-bac7-755f80a1eb59", "1604be7d-28a2-387f-83e7-fb1cf929100f", "1604be7d-28a9-3dd1-9d62-c9e9698fd73a"],
+					"ParentLocationID" : [null, "1604be7d-28a4-3565-bac7-755f80a1eb59", "1604be7d-28a2-387f-83e7-fb1cf929100f"],
+					"Name" : ["2040 SE Cedar Pl", "Floor 2", "Room 2"],
+					"Code" : ["L0000007", "L0002007", "L0202007"]
+				},
+				"SerialNumber" : "SN000109493199",
+				"Status" : "Installed",
+				"MacAddress" : "D07EA2B10866",
+				"PONumber" : "PO00043791"
+			},
+			{
+				"__Q_Id" : "1604be7d-28ae-36e9-860c-41fc0471b744",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-12T04:33:41.412Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28a2-3524-874a-fc12160f32d8",
+				"Active" : true,
+				"AssetTag" : "A0013244",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28a2-3c3f-bd19-81d737f628a6",
+					"Active" : true,
+					"FirstName" : "Rosario",
+					"LastName" : "Gulledge",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Gulledge.R@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-3eb9-9472-ac299bc67e08", "1604be7d-2890-3558-851f-4dad38eb8d5f"],
+						"ParentLocationID" : [null, "1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-3eb9-9472-ac299bc67e08"],
+						"Name" : ["5860 SW Maple St", "Floor 2", "Room 3"],
+						"Code" : ["L0000003", "L0002003", "L0302003"]
+					},
+					"Code" : "EID82657780"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-289a-31f4-b10d-d1409e246edd",
+					"Active" : true,
+					"Name" : "Cobra Tsunami CT120",
+					"Description" : "Cobra Tsunami CT120",
+					"PartControlNumber" : "XFR5IY3F2ZHM0U5",
+					"ManufacturerID" : "1604be7d-2892-361c-8fa0-4fbe9743a4ba",
+					"DateModified" : "2017-07-22T22:38:52.347Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-2891-324a-9618-e2679063121b", "1604be7d-289a-3912-816b-3c3ee3e4bb2f", "1604be7d-2892-3f93-9116-3ca5a62826ad"],
+					"ParentLocationID" : [null, "1604be7d-2891-324a-9618-e2679063121b", "1604be7d-289a-3912-816b-3c3ee3e4bb2f"],
+					"Name" : ["8905 E Park St", "Floor 3", "Room 1"],
+					"Code" : ["L0000004", "L0003004", "L0103004"]
+				},
+				"SerialNumber" : "SN000176593599",
+				"Status" : "Received",
+				"MacAddress" : "9743539650CD",
+				"PONumber" : "PO00054149"
+			},
+			{
+				"__Q_Id" : "1604be7d-28a1-36e3-b9a6-f3bbfda0b1c7",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-11T05:46:42.462Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28a6-38c2-a218-c666388965cc",
+				"Active" : true,
+				"AssetTag" : "A0014618",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28af-33a5-a8b2-7b918ce1163d",
+					"Active" : true,
+					"FirstName" : "Kary",
+					"LastName" : "Coop",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Coop.K@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-3eb9-9472-ac299bc67e08", "1604be7d-2898-3e87-9345-0ac88dea14e5"],
+						"ParentLocationID" : [null, "1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-3eb9-9472-ac299bc67e08"],
+						"Name" : ["5860 SW Maple St", "Floor 2", "Room 2"],
+						"Code" : ["L0000003", "L0002003", "L0202003"]
+					},
+					"Code" : "EID71201530"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-2890-3f1a-9774-f8e6f4e5b97d",
+					"Active" : true,
+					"Name" : "Viper Hurricane VH774",
+					"Description" : "Viper Hurricane VH774",
+					"PartControlNumber" : "TX0P4009464DPO9",
+					"ManufacturerID" : "1604be7d-289d-3e86-a8c2-bf3f5802a385",
+					"DateModified" : "2016-01-05T01:46:57.895Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-2890-3689-98e7-3cb6ab86bcd2", "1604be7d-2896-34f8-be87-7961d376577a", "1604be7d-289a-3634-b932-001a48a13376"],
+					"ParentLocationID" : [null, "1604be7d-2890-3689-98e7-3cb6ab86bcd2", "1604be7d-2896-34f8-be87-7961d376577a"],
+					"Name" : ["6846 Maple Pkwy S", "Floor 1", "Room 1"],
+					"Code" : ["L0000006", "L0001006", "L0101006"]
+				},
+				"SerialNumber" : "SN000202459290",
+				"Status" : "Staged",
+				"MacAddress" : "3E4F71978E8C",
+				"PONumber" : "PO00010008"
+			},
+			{
+				"__Q_Id" : "1604be7d-28a7-3dc2-8a7f-da058312673e",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-10T14:55:23.341Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28ae-3780-a435-cae8d25ad7ea",
+				"Active" : true,
+				"AssetTag" : "A0048205",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28a2-3859-b750-91cf13902e63",
+					"Active" : true,
+					"FirstName" : "Bill",
+					"LastName" : "Westrich",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Westrich.B@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-2890-3689-98e7-3cb6ab86bcd2"],
+						"ParentLocationID" : [null],
+						"Name" : ["6846 Maple Pkwy S"],
+						"Code" : ["L0000006"]
+					},
+					"Code" : "EID00242092"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-289e-315a-b4fc-850fbdd26d54",
+					"Active" : true,
+					"Name" : "Shark Tornado ST072",
+					"Description" : "Shark Tornado ST072",
+					"PartControlNumber" : "23MO1TN9IGT4654",
+					"ManufacturerID" : "1604be7d-2894-310f-aebf-04b0a27b1944",
+					"DateModified" : "2016-11-30T23:20:47.267Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-2891-324a-9618-e2679063121b", "1604be7d-2892-3365-a70c-d438bbc93549"],
+					"ParentLocationID" : [null, "1604be7d-2891-324a-9618-e2679063121b"],
+					"Name" : ["8905 E Park St", "Floor 1"],
+					"Code" : ["L0000004", "L0001004"]
+				},
+				"SerialNumber" : "SN000295142802",
+				"Status" : "Installed",
+				"MacAddress" : "62EFBD697D72",
+				"PONumber" : "PO00064525"
+			},
+			{
+				"__Q_Id" : "1604be7d-28a3-3b18-b532-e17e573af4a3",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-10T21:55:03.290Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28bd-38c0-ab02-d33dac241347",
+				"Active" : true,
+				"AssetTag" : "A0013302",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28a2-3c3f-bd19-81d737f628a6",
+					"Active" : true,
+					"FirstName" : "Rosario",
+					"LastName" : "Gulledge",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Gulledge.R@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-3eb9-9472-ac299bc67e08", "1604be7d-2890-3558-851f-4dad38eb8d5f"],
+						"ParentLocationID" : [null, "1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-3eb9-9472-ac299bc67e08"],
+						"Name" : ["5860 SW Maple St", "Floor 2", "Room 3"],
+						"Code" : ["L0000003", "L0002003", "L0302003"]
+					},
+					"Code" : "EID82657780"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-2892-3f20-be82-b4f347e9521a",
+					"Active" : true,
+					"Name" : "Viking Legionnaire VL344",
+					"Description" : "Viking Legionnaire VL344",
+					"PartControlNumber" : "G233OHXSL228GJ6",
+					"ManufacturerID" : "1604be7d-2896-37d5-b599-d622760d5748",
+					"DateModified" : "2016-12-24T15:21:22.431Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-2890-3689-98e7-3cb6ab86bcd2", "1604be7d-28a0-3984-9338-90bd0f091cb8", "1604be7d-28a4-3de8-85b3-90c6c3eb3bfe"],
+					"ParentLocationID" : [null, "1604be7d-2890-3689-98e7-3cb6ab86bcd2", "1604be7d-28a0-3984-9338-90bd0f091cb8"],
+					"Name" : ["6846 Maple Pkwy S", "Floor 3", "Room 3"],
+					"Code" : ["L0000006", "L0003006", "L0303006"]
+				},
+				"SerialNumber" : "SN000139007875",
+				"Status" : "Installed",
+				"MacAddress" : "F462772A5DB9",
+				"PONumber" : "PO00077099"
+			},
+			{
+				"__Q_Id" : "1604be7d-28b4-3575-954c-df77236524c7",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-12T02:52:19.503Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28ba-31a9-88d8-58ea7f90236e",
+				"Active" : true,
+				"AssetTag" : "A0080729",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28a2-3859-b750-91cf13902e63",
+					"Active" : true,
+					"FirstName" : "Bill",
+					"LastName" : "Westrich",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Westrich.B@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-2890-3689-98e7-3cb6ab86bcd2"],
+						"ParentLocationID" : [null],
+						"Name" : ["6846 Maple Pkwy S"],
+						"Code" : ["L0000006"]
+					},
+					"Code" : "EID00242092"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-2898-3765-ba96-b9c6b8b2bef2",
+					"Active" : true,
+					"Name" : "Viking Cavalry VC942",
+					"Description" : "Viking Cavalry VC942",
+					"PartControlNumber" : "NPUEX4Z035D1348",
+					"ManufacturerID" : "1604be7d-2897-3ec8-a20e-49e63dd8ae17",
+					"DateModified" : "2016-10-14T19:18:38.961Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-28a4-3565-bac7-755f80a1eb59", "1604be7d-28a2-387f-83e7-fb1cf929100f", "1604be7d-28a9-3dd1-9d62-c9e9698fd73a"],
+					"ParentLocationID" : [null, "1604be7d-28a4-3565-bac7-755f80a1eb59", "1604be7d-28a2-387f-83e7-fb1cf929100f"],
+					"Name" : ["2040 SE Cedar Pl", "Floor 2", "Room 2"],
+					"Code" : ["L0000007", "L0002007", "L0202007"]
+				},
+				"SerialNumber" : "SN000151358268",
+				"Status" : "Received",
+				"MacAddress" : "720235832A44",
+				"PONumber" : "PO00007853"
+			},
+			{
+				"__Q_Id" : "1604be7d-28b1-3caa-9a34-0b55307e2094",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-10T23:38:27.974Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28b6-3d59-b43b-fc2962059d3a",
+				"Active" : true,
+				"AssetTag" : "A0019111",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28af-33a5-a8b2-7b918ce1163d",
+					"Active" : true,
+					"FirstName" : "Kary",
+					"LastName" : "Coop",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Coop.K@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-3eb9-9472-ac299bc67e08", "1604be7d-2898-3e87-9345-0ac88dea14e5"],
+						"ParentLocationID" : [null, "1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-3eb9-9472-ac299bc67e08"],
+						"Name" : ["5860 SW Maple St", "Floor 2", "Room 2"],
+						"Code" : ["L0000003", "L0002003", "L0202003"]
+					},
+					"Code" : "EID71201530"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-2892-3f20-be82-b4f347e9521a",
+					"Active" : true,
+					"Name" : "Viking Legionnaire VL344",
+					"Description" : "Viking Legionnaire VL344",
+					"PartControlNumber" : "G233OHXSL228GJ6",
+					"ManufacturerID" : "1604be7d-2896-37d5-b599-d622760d5748",
+					"DateModified" : "2016-12-24T15:21:22.431Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-289b-3be7-a38b-e3dd2eabf18d", "1604be7d-289a-3ac9-87ff-9eea0dc8efb1"],
+					"ParentLocationID" : [null, "1604be7d-289b-3be7-a38b-e3dd2eabf18d"],
+					"Name" : ["1209 Maple Ln S", "Floor 2"],
+					"Code" : ["L0000001", "L0002001"]
+				},
+				"SerialNumber" : "SN000103677253",
+				"Status" : "Installed",
+				"MacAddress" : "2DB87913668C",
+				"PONumber" : "PO00027711"
+			},
+			{
+				"__Q_Id" : "1604be7d-28be-333b-857d-e4ac96eacaaf",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-12T03:44:01.671Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28bc-3018-80c6-23d46d0926e7",
+				"Active" : true,
+				"AssetTag" : "A0044890",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28a3-3136-82c4-2761c03de4a1",
+					"Active" : true,
+					"FirstName" : "Kristie",
+					"LastName" : "Kimbler",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Kimbler.K@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-38c9-b0fb-0a2a49719519", "1604be7d-289a-322a-8562-d80e053f3f1b"],
+						"ParentLocationID" : [null, "1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-38c9-b0fb-0a2a49719519"],
+						"Name" : ["5860 SW Maple St", "Floor 3", "Room 3"],
+						"Code" : ["L0000003", "L0003003", "L0303003"]
+					},
+					"Code" : "EID32948049"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-2898-36b9-8e0e-dfb7c171939a",
+					"Active" : true,
+					"Name" : "Viper Tornado VT903",
+					"Description" : "Viper Tornado VT903",
+					"PartControlNumber" : "8EB8THH71S803K2",
+					"ManufacturerID" : "1604be7d-2891-30e3-87c7-00ea1ed1ee11",
+					"DateModified" : "2017-05-07T22:00:02.609Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-2893-3a4c-b889-a0278ddd5c20", "1604be7d-2898-37a7-8319-57267fcd54c4", "1604be7d-2898-3fa7-be98-d1a1b2adcb44"],
+					"ParentLocationID" : [null, "1604be7d-2893-3a4c-b889-a0278ddd5c20", "1604be7d-2898-37a7-8319-57267fcd54c4"],
+					"Name" : ["5706 E 2nd Ln", "Floor 3", "Room 3"],
+					"Code" : ["L0000002", "L0003002", "L0303002"]
+				},
+				"SerialNumber" : "SN000336171837",
+				"Status" : "Installed",
+				"MacAddress" : "B56AFE399469",
+				"PONumber" : "PO00037945"
+			},
+			{
+				"__Q_Id" : "1604be7d-28bf-320b-84c0-761c35bc6283",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-11T20:11:16.690Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28b8-3667-bbd9-035c80b7fb9b",
+				"Active" : true,
+				"AssetTag" : "A0024541",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28a2-3859-b750-91cf13902e63",
+					"Active" : true,
+					"FirstName" : "Bill",
+					"LastName" : "Westrich",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Westrich.B@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-2890-3689-98e7-3cb6ab86bcd2"],
+						"ParentLocationID" : [null],
+						"Name" : ["6846 Maple Pkwy S"],
+						"Code" : ["L0000006"]
+					},
+					"Code" : "EID00242092"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-289e-315a-b4fc-850fbdd26d54",
+					"Active" : true,
+					"Name" : "Shark Tornado ST072",
+					"Description" : "Shark Tornado ST072",
+					"PartControlNumber" : "23MO1TN9IGT4654",
+					"ManufacturerID" : "1604be7d-2894-310f-aebf-04b0a27b1944",
+					"DateModified" : "2016-11-30T23:20:47.267Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-2898-37ff-8d10-5963e25f985c"],
+					"ParentLocationID" : [null],
+					"Name" : ["3087 W 2nd St"],
+					"Code" : ["L0000005"]
+				},
+				"SerialNumber" : "SN000660312792",
+				"Status" : "Installed",
+				"MacAddress" : "0C2F08844207",
+				"PONumber" : "PO00031448"
+			},
+			{
+				"__Q_Id" : "1604be7d-28bc-3398-b0a1-a7b957dd1f26",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-12T09:20:37.379Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28cc-30c9-b082-3144ca5d5335",
+				"Active" : true,
+				"AssetTag" : "A0038648",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28a7-3e45-9d1e-b7cb6e997ffc",
+					"Active" : true,
+					"FirstName" : "Nolan",
+					"LastName" : "Cilley",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Cilley.N@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-28ad-3c2b-8d39-56e76ba1bf61"],
+						"ParentLocationID" : [null],
+						"Name" : ["7532 E Maple St"],
+						"Code" : ["L0000008"]
+					},
+					"Code" : "EID91778803"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-289e-315a-b4fc-850fbdd26d54",
+					"Active" : true,
+					"Name" : "Shark Tornado ST072",
+					"Description" : "Shark Tornado ST072",
+					"PartControlNumber" : "23MO1TN9IGT4654",
+					"ManufacturerID" : "1604be7d-2894-310f-aebf-04b0a27b1944",
+					"DateModified" : "2016-11-30T23:20:47.267Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-2890-3689-98e7-3cb6ab86bcd2", "1604be7d-2896-34f8-be87-7961d376577a", "1604be7d-289e-353d-9c12-d12df9441bc3"],
+					"ParentLocationID" : [null, "1604be7d-2890-3689-98e7-3cb6ab86bcd2", "1604be7d-2896-34f8-be87-7961d376577a"],
+					"Name" : ["6846 Maple Pkwy S", "Floor 1", "Room 3"],
+					"Code" : ["L0000006", "L0001006", "L0301006"]
+				},
+				"SerialNumber" : "SN000312880045",
+				"Status" : "Staged",
+				"MacAddress" : "0819174B52FD",
+				"PONumber" : "PO00094447"
+			},
+			{
+				"__Q_Id" : "1604be7d-28cc-38e3-ae42-1287246ae32e",
+				"__Q_CollectionContextId" : "e0376598-732b-48d3-b4a3-5059e4a963be",
+				"__Q_Created" : "2017-12-10T13:23:50.000Z",
+				"__Q_Updated" : "2017-12-12T13:42:01.124Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be7d-28c7-3773-8d79-2d8735ef64c1",
+				"Active" : true,
+				"AssetTag" : "A0047316",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be7d-28aa-38ef-b5d9-030a27176edf",
+					"Active" : true,
+					"FirstName" : "Deane",
+					"LastName" : "Deeds",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Deeds.D@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be7d-28a3-3a4b-a000-b47a94825b91", "1604be7d-28a0-3813-88a2-1227917576ee", "1604be7d-28ac-39ed-86ed-83c34fc816f4"],
+						"ParentLocationID" : [null, "1604be7d-28a3-3a4b-a000-b47a94825b91", "1604be7d-28a0-3813-88a2-1227917576ee"],
+						"Name" : ["8588 Main Way NE", "Floor 3", "Room 3"],
+						"Code" : ["L0000009", "L0003009", "L0303009"]
+					},
+					"Code" : "EID02187094"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be7d-2895-393e-a6f5-9c3f2a3453ea",
+					"Active" : true,
+					"Name" : "Bear Hurricane BH457",
+					"Description" : "Bear Hurricane BH457",
+					"PartControlNumber" : "T2R4C549V9UHC0A",
+					"ManufacturerID" : "1604be7d-2893-3a7d-ac4a-e6f956a15474",
+					"DateModified" : "2017-06-14T05:16:38.612Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-3eb9-9472-ac299bc67e08", "1604be7d-2890-3558-851f-4dad38eb8d5f"],
+					"ParentLocationID" : [null, "1604be7d-289a-3249-8bf3-d46b581b6f0d", "1604be7d-2894-3eb9-9472-ac299bc67e08"],
+					"Name" : ["5860 SW Maple St", "Floor 2", "Room 3"],
+					"Code" : ["L0000003", "L0002003", "L0302003"]
+				},
+				"SerialNumber" : "SN000704243748",
+				"Status" : "Staged",
+				"MacAddress" : "C99DCD973CF4",
+				"PONumber" : "PO00078426"
+			},
+			{
+				"__Q_Id" : "1604be8f-5c9f-35e3-8895-8f6454227c70",
+				"__Q_CollectionContextId" : "acee971f-f3b4-43d1-ba83-871d1fc66b14",
+				"__Q_Created" : "2017-12-11T12:20:34.000Z",
+				"__Q_Updated" : "2017-12-11T21:26:48.486Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be8f-5c90-385f-a3af-9c2dc1abe9f7",
+				"Active" : true,
+				"AssetTag" : "A0035821",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be8f-5c91-336b-914c-e321d822deb4",
+					"Active" : true,
+					"FirstName" : "Sherika",
+					"LastName" : "Lowry",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Lowry.S@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be8f-5c9c-35d4-81d9-040c1541932b", "1604be8f-5c96-3af7-b21f-977fb9ec59e5", "1604be8f-5c94-31e3-a840-a068dd28017f"],
+						"ParentLocationID" : [null, "1604be8f-5c9c-35d4-81d9-040c1541932b", "1604be8f-5c96-3af7-b21f-977fb9ec59e5"],
+						"Name" : ["8119 NE 3rd Pl", "Floor 2", "Room 1"],
+						"Code" : ["L0000002", "L0002002", "L0102002"]
+					},
+					"Code" : "EID43932119"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be8f-5c95-34d6-bb7c-3da20a11ad34",
+					"Active" : true,
+					"Name" : "Cobra Lightning CL269",
+					"Description" : "Cobra Lightning CL269",
+					"PartControlNumber" : "SA7A20Z0X09RF1H",
+					"ManufacturerID" : "1604be8f-5c96-3723-8729-c072e9f35c5f",
+					"DateModified" : "2016-08-10T13:15:31.195Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be8f-5c9b-32fa-9f20-7d91b3ec8299", "1604be8f-5c93-38e4-bc81-907a4f252834"],
+					"ParentLocationID" : [null, "1604be8f-5c9b-32fa-9f20-7d91b3ec8299"],
+					"Name" : ["8254 SE Lake Ln", "Floor 3"],
+					"Code" : ["L0000001", "L0003001"]
+				},
+				"SerialNumber" : "SN000673434139",
+				"Status" : "Installed",
+				"MacAddress" : "7CCA9612D723",
+				"PONumber" : "PO00051195"
+			},
+			{
+				"__Q_Id" : "1604be8f-5c94-317c-9b0f-d3d3f88bbf28",
+				"__Q_CollectionContextId" : "acee971f-f3b4-43d1-ba83-871d1fc66b14",
+				"__Q_Created" : "2017-12-11T12:20:34.000Z",
+				"__Q_Updated" : "2017-12-11T14:10:03.205Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be8f-5c90-3032-8574-881ab3604017",
+				"Active" : true,
+				"AssetTag" : "A0024450",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be8f-5c97-3415-b751-c024c1f6f9f8",
+					"Active" : true,
+					"FirstName" : "Alfredo",
+					"LastName" : "Slinkard",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Slinkard.A@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be8f-5c99-3925-bbdf-b99be371241b", "1604be8f-5c9d-3f2d-8af1-da29182eb386", "1604be8f-5c97-3968-9fdb-6e4c0137d87d"],
+						"ParentLocationID" : [null, "1604be8f-5c99-3925-bbdf-b99be371241b", "1604be8f-5c9d-3f2d-8af1-da29182eb386"],
+						"Name" : ["443 Oak Pl S", "Floor 3", "Room 2"],
+						"Code" : ["L0000000", "L0003000", "L0203000"]
+					},
+					"Code" : "EID69397701"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be8f-5c9d-3e2d-81f8-dd08417d998e",
+					"Active" : true,
+					"Name" : "Cavalry C292",
+					"Description" : "Cavalry C292",
+					"PartControlNumber" : "O9IYA5907CPSF91",
+					"ManufacturerID" : "1604be8f-5c9d-3fcb-87c2-e547fbcf9733",
+					"DateModified" : "2017-11-06T19:33:07.963Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be8f-5c9c-35d4-81d9-040c1541932b", "1604be8f-5c96-3af7-b21f-977fb9ec59e5", "1604be8f-5c94-30b5-8424-e8ff65cb8906"],
+					"ParentLocationID" : [null, "1604be8f-5c9c-35d4-81d9-040c1541932b", "1604be8f-5c96-3af7-b21f-977fb9ec59e5"],
+					"Name" : ["8119 NE 3rd Pl", "Floor 2", "Room 3"],
+					"Code" : ["L0000002", "L0002002", "L0302002"]
+				},
+				"SerialNumber" : "SN000199696258",
+				"Status" : "Disposed",
+				"MacAddress" : "49F18AF3EA4E",
+				"PONumber" : "PO00038145"
+			},
+			{
+				"__Q_Id" : "1604be8f-5c9a-3021-91ec-d9bd995491c0",
+				"__Q_CollectionContextId" : "acee971f-f3b4-43d1-ba83-871d1fc66b14",
+				"__Q_Created" : "2017-12-11T12:20:34.000Z",
+				"__Q_Updated" : "2017-12-11T21:31:26.312Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be8f-5c95-3c01-835b-df896a7857b9",
+				"Active" : true,
+				"AssetTag" : "A0033421",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be8f-5c91-396a-90c5-6157035738eb",
+					"Active" : true,
+					"FirstName" : "Lawrence",
+					"LastName" : "Martello",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Martello.L@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be8f-5c99-3925-bbdf-b99be371241b", "1604be8f-5c9f-3ec2-957a-f75392342037"],
+						"ParentLocationID" : [null, "1604be8f-5c99-3925-bbdf-b99be371241b"],
+						"Name" : ["443 Oak Pl S", "Floor 2"],
+						"Code" : ["L0000000", "L0002000"]
+					},
+					"Code" : "EID57550524"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be8f-5c93-3761-825f-b7f8c22d9875",
+					"Active" : true,
+					"Name" : "Bear Tsunami BT184",
+					"Description" : "Bear Tsunami BT184",
+					"PartControlNumber" : "8H837P36O7P3VJ4",
+					"ManufacturerID" : "1604be8f-5c9a-3121-b372-4d8cc7abe4c2",
+					"DateModified" : "2016-02-12T15:50:36.383Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be8f-5c9c-35d4-81d9-040c1541932b", "1604be8f-5c96-3af7-b21f-977fb9ec59e5", "1604be8f-5c94-30b5-8424-e8ff65cb8906"],
+					"ParentLocationID" : [null, "1604be8f-5c9c-35d4-81d9-040c1541932b", "1604be8f-5c96-3af7-b21f-977fb9ec59e5"],
+					"Name" : ["8119 NE 3rd Pl", "Floor 2", "Room 3"],
+					"Code" : ["L0000002", "L0002002", "L0302002"]
+				},
+				"SerialNumber" : "SN000728267666",
+				"Status" : "Disposed",
+				"MacAddress" : "952487E8FA42",
+				"PONumber" : "PO00096903"
+			},
+			{
+				"__Q_Id" : "1604be8f-5c92-3d80-b16d-27a57bed1571",
+				"__Q_CollectionContextId" : "acee971f-f3b4-43d1-ba83-871d1fc66b14",
+				"__Q_Created" : "2017-12-11T12:20:34.000Z",
+				"__Q_Updated" : "2017-12-12T05:31:18.711Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be8f-5c9a-3a90-b91b-b26e1d5f3a1c",
+				"Active" : true,
+				"AssetTag" : "A0011555",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be8f-5c96-38d1-b397-1147af391b1a",
+					"Active" : true,
+					"FirstName" : "Kristie",
+					"LastName" : "Lynde",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Lynde.K@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be8f-5c9c-35d4-81d9-040c1541932b", "1604be8f-5c9a-3cff-8c51-c54693ec04c7", "1604be8f-5c9d-3327-a16c-42b13574a586"],
+						"ParentLocationID" : [null, "1604be8f-5c9c-35d4-81d9-040c1541932b", "1604be8f-5c9a-3cff-8c51-c54693ec04c7"],
+						"Name" : ["8119 NE 3rd Pl", "Floor 3", "Room 2"],
+						"Code" : ["L0000002", "L0003002", "L0203002"]
+					},
+					"Code" : "EID75824707"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be8f-5c95-34d6-bb7c-3da20a11ad34",
+					"Active" : true,
+					"Name" : "Cobra Lightning CL269",
+					"Description" : "Cobra Lightning CL269",
+					"PartControlNumber" : "SA7A20Z0X09RF1H",
+					"ManufacturerID" : "1604be8f-5c96-3723-8729-c072e9f35c5f",
+					"DateModified" : "2016-08-10T13:15:31.195Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be8f-5c98-3e8e-9afc-74a78b9f711b", "1604be8f-5c90-30b6-b278-220d3e0b43ba", "1604be8f-5c9c-3bd8-8f30-72ccbdea39bf"],
+					"ParentLocationID" : [null, "1604be8f-5c98-3e8e-9afc-74a78b9f711b", "1604be8f-5c90-30b6-b278-220d3e0b43ba"],
+					"Name" : ["8638 Wall Dr SW", "Floor 2", "Room 3"],
+					"Code" : ["L0000003", "L0002003", "L0302003"]
+				},
+				"SerialNumber" : "SN000138019111",
+				"Status" : "Installed",
+				"MacAddress" : "AA2201676DC0",
+				"PONumber" : "PO00009440"
+			},
+			{
+				"__Q_Id" : "1604be8f-5c96-3e8f-9c55-2193833bfc00",
+				"__Q_CollectionContextId" : "acee971f-f3b4-43d1-ba83-871d1fc66b14",
+				"__Q_Created" : "2017-12-11T12:20:34.000Z",
+				"__Q_Updated" : "2017-12-11T21:35:19.992Z",
+				"@EntityValues" : {},
+				"AssetID" : "1604be8f-5c99-355d-9b9d-77fbc933144e",
+				"Active" : true,
+				"AssetTag" : "A0029878",
+				"AssigneeID" :
+				{
+					"AssigneeID" : "1604be8f-5c96-38d1-b397-1147af391b1a",
+					"Active" : true,
+					"FirstName" : "Kristie",
+					"LastName" : "Lynde",
+					"MiddleInitial" : null,
+					"EmailAddress" : "Lynde.K@amitracks.com",
+					"LocationID" :
+					{
+						"LocationID" : ["1604be8f-5c9c-35d4-81d9-040c1541932b", "1604be8f-5c9a-3cff-8c51-c54693ec04c7", "1604be8f-5c9d-3327-a16c-42b13574a586"],
+						"ParentLocationID" : [null, "1604be8f-5c9c-35d4-81d9-040c1541932b", "1604be8f-5c9a-3cff-8c51-c54693ec04c7"],
+						"Name" : ["8119 NE 3rd Pl", "Floor 3", "Room 2"],
+						"Code" : ["L0000002", "L0003002", "L0203002"]
+					},
+					"Code" : "EID75824707"
+				},
+				"ProductID" :
+				{
+					"ProductID" : "1604be8f-5c93-3761-825f-b7f8c22d9875",
+					"Active" : true,
+					"Name" : "Bear Tsunami BT184",
+					"Description" : "Bear Tsunami BT184",
+					"PartControlNumber" : "8H837P36O7P3VJ4",
+					"ManufacturerID" : "1604be8f-5c9a-3121-b372-4d8cc7abe4c2",
+					"DateModified" : "2016-02-12T15:50:36.383Z"
+				},
+				"LocationID" :
+				{
+					"LocationID" : ["1604be8f-5c98-3e8e-9afc-74a78b9f711b"],
+					"ParentLocationID" : [null],
+					"Name" : ["8638 Wall Dr SW"],
+					"Code" : ["L0000003"]
+				},
+				"SerialNumber" : "SN000254568492",
+				"Status" : "Disposed",
+				"MacAddress" : "54012070E506",
+				"PONumber" : "PO00098520"
+			}
+		]
+	}
+}

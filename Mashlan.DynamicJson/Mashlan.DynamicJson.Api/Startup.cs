@@ -1,12 +1,17 @@
-﻿using Mashlan.DynamicJson.Api.Configuration.Startup.ApiVersioning;
+﻿using System;
+using Mashlan.DynamicJson.Api.Configuration.Constants;
+using Mashlan.DynamicJson.Api.Configuration.Section;
+using Mashlan.DynamicJson.Api.Configuration.Startup.ApiVersioning;
 using Mashlan.DynamicJson.Api.Configuration.Startup.Logging;
 using Mashlan.DynamicJson.Api.Configuration.Startup.Swagger;
+using Mashlan.DynamicJson.DependanceInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 
 namespace Mashlan.DynamicJson.Api
 {
@@ -20,7 +25,6 @@ namespace Mashlan.DynamicJson.Api
         /// <summary>
         /// Ctor
         /// </summary>
-        /// <param name="env">Hosting Environment</param>
         public Startup(IHostingEnvironment env)
         {
             var builder = new ConfigurationBuilder()
@@ -41,26 +45,33 @@ namespace Mashlan.DynamicJson.Api
         /// <summary>
         /// This method gets called by the runtime. Use this method to add services to the container.
         /// </summary>
-        /// <param name="services"></param>
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<ConnectionStringsConfiguration>(Configuration.GetSection(AppSettingsSections.ConnectionStrings));
+            services.Configure<LogLocationsConfiguration>(Configuration.GetSection(AppSettingsSections.LogLocations));
+
+            var serviceProvider = services.BuildServiceProvider();
+            var connectionStrings = serviceProvider.GetService<IOptions<ConnectionStringsConfiguration>>();
+            var connectionString = connectionStrings.Value.AssetTrackConnection;
+
             ApiVersioningConfiguration.ConfigureService(services);
 
-            //ConfigureApiVersioning(services);
+            DatabaseConfiguration.Configure(services, connectionString, EnvironmentVariables.GetInMemoryDbValue());
 
-            services.AddMvc();
+            DependencyInjectorHost.Configure(services);
 
             SwaggerStartupConfiguration.ConfigureService(services, environment);
+
+            services.AddMvc();
         }
 
         /// <summary>
         ///  This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         /// </summary>
-        /// <param name="app"></param>
-        /// <param name="loggerFactory"></param>
-        /// <param name="apiVersionDescriptionProvider"></param>
-        public void Configure(IApplicationBuilder app, ILoggerFactory loggerFactory, 
-            IApiVersionDescriptionProvider apiVersionDescriptionProvider)
+        public void Configure(IApplicationBuilder app, 
+            ILoggerFactory loggerFactory, 
+            IApiVersionDescriptionProvider apiVersionDescriptionProvider, 
+            IServiceProvider serviceProvider)
         {
             
             CorrelationMiddleware.Configure(app);
@@ -71,19 +82,9 @@ namespace Mashlan.DynamicJson.Api
                 SwaggerStartupConfiguration.Configure(app, apiVersionDescriptionProvider);
             }
             
+            if (EnvironmentVariables.GetInMemoryDbValue()) DependencyInjectorHost.ConfigureMock(serviceProvider);
+
             app.UseMvc();
-        }
-
-        
-        private static void ConfigureApiVersioning(IServiceCollection services)
-        {
-            // Add the versioned api explorer, which also adds IApiVersionDescriptionProvider service
-            // Note: the specified format code will format the version as "'v'major[.minor][-status]"
-            // Note: Requires package: Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer
-            services.AddMvcCore().AddVersionedApiExplorer(o => o.GroupNameFormat = "'v'VVV");
-
-            // Add framework services.
-            services.AddApiVersioning(apiVersioningOptions => { apiVersioningOptions.ReportApiVersions = true; });
         }
     }
 }

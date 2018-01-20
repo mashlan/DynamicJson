@@ -39,4 +39,9 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Mashlan.DynamicJson.DependanceInjection\Mashlan.DynamicJson.DependanceInjection.csproj" />
+    <ProjectReference Include="..\Mashlan.DynamicJson.Domain\Mashlan.DynamicJson.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

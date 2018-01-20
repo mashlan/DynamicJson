@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "6878f13fbe4c99b25bf7a9c67d529f1455c0e4dc"
+    "signature": "f936695db5f030e6840f7b74676856d71d99e9df"
   },
   "compilationOptions": {},
   "targets": {
@@ -16,6 +16,11 @@
         },
         "runtime": {
           "Mashlan.DynamicJson.Api.Tests.dll": {}
+        }
+      },
+      "Bogus/22.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -3741,6 +3746,8 @@
       },
       "Mashlan.DynamicJson.Api/1.0.0": {
         "dependencies": {
+          "Mashlan.DynamicJson.DependanceInjection": "1.0.0",
+          "Mashlan.DynamicJson.Domain": "1.0.0",
           "Microsoft.AspNetCore.All": "2.0.5",
           "Microsoft.AspNetCore.Mvc.Versioning": "2.1.0",
           "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": "2.1.0",
@@ -3769,6 +3776,47 @@
         "runtime": {
           "Mashlan.DynamicJson.Api.dll": {}
         }
+      },
+      "Mashlan.DynamicJson.DataAccess/1.0.0": {
+        "dependencies": {
+          "Mashlan.DynamicJson.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.0.1",
+          "Microsoft.EntityFrameworkCore.InMemory": "2.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1"
+        },
+        "runtime": {
+          "Mashlan.DynamicJson.DataAccess.dll": {}
+        }
+      },
+      "Mashlan.DynamicJson.DependanceInjection/1.0.0": {
+        "dependencies": {
+          "Mashlan.DynamicJson.DataAccess": "1.0.0",
+          "Mashlan.DynamicJson.Domain": "1.0.0",
+          "Mashlan.DynamicJson.MockData": "1.0.0",
+          "Microsoft.AspNetCore": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection": "2.0.0"
+        },
+        "runtime": {
+          "Mashlan.DynamicJson.DependanceInjection.dll": {}
+        }
+      },
+      "Mashlan.DynamicJson.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.1"
+        },
+        "runtime": {
+          "Mashlan.DynamicJson.Domain.dll": {}
+        }
+      },
+      "Mashlan.DynamicJson.MockData/1.0.0": {
+        "dependencies": {
+          "Bogus": "22.0.2",
+          "Mashlan.DynamicJson.DataAccess": "1.0.0",
+          "Mashlan.DynamicJson.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Mashlan.DynamicJson.MockData.dll": {}
+        }
       }
     }
   },
@@ -3777,6 +3825,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Bogus/22.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N0oeJ4wlT+OwS1IgZ3UXdJqoOiXKEmdXKZ+uiQC3uEAVTYG1hkxIXYMQxRu0nMxbSc/TZQKNhFFB8RHAffmu8w==",
+      "path": "bogus/22.0.2",
+      "hashPath": "bogus.22.0.2.nupkg.sha512"
     },
     "Libuv/1.10.0": {
       "type": "package",
@@ -6026,6 +6081,26 @@
       "hashPath": "xunit.runner.visualstudio.2.3.1.nupkg.sha512"
     },
     "Mashlan.DynamicJson.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mashlan.DynamicJson.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mashlan.DynamicJson.DependanceInjection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mashlan.DynamicJson.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mashlan.DynamicJson.MockData/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

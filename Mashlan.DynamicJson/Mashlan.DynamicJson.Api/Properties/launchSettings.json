@@ -8,20 +8,23 @@
     }
   },
   "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
+    "Mashlan.DynamicJson.Api.InMemory": {
+      "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "InMemoryDb":  true 
+      },
+      "applicationUrl": "http://localhost:13048/"
     },
     "Mashlan.DynamicJson.Api": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "InMemoryDb":  false 
       },
       "applicationUrl": "http://localhost:13048/"
     }

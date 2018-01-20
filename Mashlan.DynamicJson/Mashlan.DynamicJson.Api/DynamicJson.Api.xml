@@ -57,6 +57,16 @@
             <exception cref="T:System.ArgumentNullException"><paramref name="hostingEnvironment"/> is <see langword="null"/></exception>
             <exception cref="T:System.ArgumentException">Condition.</exception>
         </member>
+        <member name="T:Mashlan.DynamicJson.Api.Configuration.Section.ConnectionStringsConfiguration">
+            <summary>
+            Connection String Configuration Object
+            </summary>
+        </member>
+        <member name="P:Mashlan.DynamicJson.Api.Configuration.Section.ConnectionStringsConfiguration.AssetTrackConnection">
+            <summary>
+            Database Connection String
+            </summary>
+        </member>
         <member name="T:Mashlan.DynamicJson.Api.Configuration.Section.LoggingConfiguration">
             <summary>
             Represents the Logging section in the appsettings.json files
@@ -204,7 +214,6 @@
             <summary>
             Ctor
             </summary>
-            <param name="env">Hosting Environment</param>
         </member>
         <member name="P:Mashlan.DynamicJson.Api.Startup.Configuration">
             <summary>
@@ -215,15 +224,11 @@
             <summary>
             This method gets called by the runtime. Use this method to add services to the container.
             </summary>
-            <param name="services"></param>
         </member>
-        <member name="M:Mashlan.DynamicJson.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider)">
+        <member name="M:Mashlan.DynamicJson.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider,System.IServiceProvider)">
             <summary>
              This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
             </summary>
-            <param name="app"></param>
-            <param name="loggerFactory"></param>
-            <param name="apiVersionDescriptionProvider"></param>
         </member>
     </members>
 </doc>
