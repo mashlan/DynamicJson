@@ -10,6 +10,7 @@
       "Mashlan.DynamicJson.Service/1.0.0": {
         "dependencies": {
           "Mashlan.DynamicJson.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.0.1",
           "NETStandard.Library": "2.0.1",
           "TeamCity.Dotnet.Integration": "1.0.0"
         },

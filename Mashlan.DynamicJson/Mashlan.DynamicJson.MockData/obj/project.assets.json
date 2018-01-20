@@ -4207,6 +4207,7 @@
       "Bogus >= 22.0.2",
       "Mashlan.DynamicJson.DataAccess >= 1.0.0",
       "Mashlan.DynamicJson.Domain >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 2.0.1",
       "NETStandard.Library >= 2.0.1",
       "TeamCity.Dotnet.Integration >= 1.0.0"
     ]
@@ -4268,6 +4269,10 @@
           "Bogus": {
             "target": "Package",
             "version": "[22.0.2, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[2.0.1, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",

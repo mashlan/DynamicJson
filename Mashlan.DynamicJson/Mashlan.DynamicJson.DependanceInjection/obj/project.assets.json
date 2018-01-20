@@ -1691,6 +1691,7 @@
           "Bogus": "22.0.2",
           "Mashlan.DynamicJson.DataAccess": "1.0.0",
           "Mashlan.DynamicJson.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.0.1",
           "TeamCity.Dotnet.Integration": "1.0.0"
         },
         "compile": {
@@ -1705,6 +1706,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Mashlan.DynamicJson.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.0.1",
           "TeamCity.Dotnet.Integration": "1.0.0"
         },
         "compile": {
