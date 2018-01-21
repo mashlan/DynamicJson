@@ -1,9 +1,0 @@
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Configuration\bin\Debug\netstandard2.0\Mashlan.DynamicJson.Configuration.deps.json
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Configuration\bin\Debug\netstandard2.0\Mashlan.DynamicJson.Configuration.dll
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Configuration\obj\Debug\netstandard2.0\Mashlan.DynamicJson.Configuration.csprojResolveAssemblyReference.cache
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Configuration\obj\Debug\netstandard2.0\Mashlan.DynamicJson.Configuration.csproj.CoreCompileInputs.cache
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Configuration\obj\Debug\netstandard2.0\Mashlan.DynamicJson.Configuration.AssemblyInfoInputs.cache
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Configuration\obj\Debug\netstandard2.0\Mashlan.DynamicJson.Configuration.AssemblyInfo.cs
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Configuration\bin\Debug\netstandard2.0\Mashlan.DynamicJson.Configuration.pdb
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Configuration\obj\Debug\netstandard2.0\Mashlan.DynamicJson.Configuration.dll
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Configuration\obj\Debug\netstandard2.0\Mashlan.DynamicJson.Configuration.pdb
