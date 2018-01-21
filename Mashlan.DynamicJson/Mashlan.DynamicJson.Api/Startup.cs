@@ -73,8 +73,9 @@ namespace Mashlan.DynamicJson.Api
             IApiVersionDescriptionProvider apiVersionDescriptionProvider, 
             IServiceProvider serviceProvider)
         {
-            
             CorrelationMiddleware.Configure(app);
+
+            app.UseStaticFiles();
 
             if (environment.IsDevelopment())
             {

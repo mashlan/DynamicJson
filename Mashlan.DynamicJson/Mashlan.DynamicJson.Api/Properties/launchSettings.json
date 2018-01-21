@@ -11,7 +11,7 @@
     "Mashlan.DynamicJson.Api.InMemory": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "swagger",
+      "launchUrl": "swagger/ui/index.html",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "InMemoryDb":  true 
@@ -21,7 +21,7 @@
     "Mashlan.DynamicJson.Api": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "swagger",
+      "launchUrl": "swagger/ui/index.html",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "InMemoryDb":  false 

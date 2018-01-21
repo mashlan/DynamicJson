@@ -90,9 +90,9 @@ namespace Mashlan.DynamicJson.Api.Configuration.Startup.Swagger
         {
             var info = new Info
             {
-                Title = $"Dynamic JSON API {description.ApiVersion}",
+                Title = $"Dynamic JSON API v{description.ApiVersion}",
                 Version = description.ApiVersion.ToString(),
-                Description = "Test project for working with dynamic json",
+                Description = "Test project for working with dynamic json. \n\r For swagger setup in .Net core see: \n\r https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?tabs=visual-studio",
                 Contact = new Contact { Name = "Eric Mashlan", Email = "eric.mashlan@gmail.com" },
                 TermsOfService = "WTFPL",
                 License = new License { Name = "WTFPL", Url = "https://github.com/CubicleJockey/OnionPattern/blob/Develop/LICENSE.md" }

@@ -205,6 +205,17 @@
             <param name="apiVersionDescriptionProvider"></param>
             <exception cref="T:System.ArgumentNullException"><paramref name="application"/> is <see langword="null"/></exception>
         </member>
+        <member name="T:Mashlan.DynamicJson.Api.Controllers.ContextController">
+            <summary>
+            Context REST Calls.
+            </summary>
+        </member>
+        <member name="M:Mashlan.DynamicJson.Api.Controllers.ContextController.Get">
+            <summary>
+            Returns all Context records.
+            </summary>
+            <returns><see cref="T:Microsoft.AspNetCore.Mvc.IActionResult"/></returns>
+        </member>
         <member name="M:Mashlan.DynamicJson.Api.Controllers.QueueController.Get">
             <summary>
             Returns all Queue records
