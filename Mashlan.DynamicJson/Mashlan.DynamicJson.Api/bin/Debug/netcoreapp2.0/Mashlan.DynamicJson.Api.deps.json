@@ -4045,6 +4045,7 @@
       },
       "Mashlan.DynamicJson.Domain/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.0.2",
           "Microsoft.EntityFrameworkCore": "2.0.1",
           "Newtonsoft.Json": "10.0.3",
           "TeamCity.Dotnet.Integration": "1.0.0"
