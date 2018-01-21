@@ -1,11 +1,3 @@
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.dll
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.DataAccess.dll
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.DependanceInjection.dll
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Domain.dll
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.dll
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Domain.pdb
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.DataAccess.pdb
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.MockData.pdb
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.Tests.csproj.CoreCompileInputs.cache
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.Tests.AssemblyInfoInputs.cache
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.Tests.AssemblyInfo.cs
@@ -18,9 +10,5 @@ C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJ
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.Tests.runtimeconfig.dev.json
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.Tests.dll
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.Tests.pdb
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Service.dll
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.pdb
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.DependanceInjection.pdb
-C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\bin\Debug\netcoreapp2.0\Mashlan.DynamicJson.Service.pdb
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.Tests.dll
 C:\Users\mashl\Documents\GitHub\DynamicJson\Mashlan.DynamicJson\Mashlan.DynamicJson.Api.Tests\obj\Debug\netcoreapp2.0\Mashlan.DynamicJson.Api.Tests.pdb
