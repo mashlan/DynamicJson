@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using System.Text;
 using Mashlan.DynamicJson.Domain.Entities;
 
 namespace Mashlan.DynamicJson.Domain.Services
