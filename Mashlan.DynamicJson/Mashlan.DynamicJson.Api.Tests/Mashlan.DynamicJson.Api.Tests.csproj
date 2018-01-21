@@ -17,8 +17,4 @@
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Mashlan.DynamicJson.Api\Mashlan.DynamicJson.Api.csproj" />
-  </ItemGroup>
-
 </Project>
